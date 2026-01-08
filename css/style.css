@@ -1,0 +1,139 @@
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1600px;
+    border: 1px solid red;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+ 
+}
+
+/* Sheard Style started Here */
+
+
+/* paddin Style  */
+
+.pl-7-5{
+   padding-left: 7.5rem;
+}
+.pr-7-5{
+   padding-right: 7.5rem;
+}
+
+.pt-1{
+    padding-top: 1rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+
+.border-round{
+    border-radius: 4px;
+}
+
+.border-rounded{
+    border-radius: 100%;
+
+}
+
+
+
+/* Background Color */
+.bg-praymary{
+    background-color: #30B868 ;
+}
+
+
+
+/* Text Style */
+.text-whight{
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Button Style */
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: none;
+}
+
+.btn:hover{
+    opacity: 75%;
+}
+
+.opacity-75{
+    opacity: 75%;
+
+}
+
+/*  */
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* flex and Grid style */
+
+.flex{
+    display: flex;
+
+}
+.grid{
+    display: grid;
+}
+
+.content-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.items-center{
+    justify-items: center;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+
+/* Sheard Style End Here */
+
+/* Nave Style Here */
+nav{
+    background-color: rgba(255, 255, 255, 1);
+}
+nav .logo-img{
+    width: 47px ;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+cursor: pointer;
+text-decoration: none;
+color: black;
+padding: 4px;
+border: none;
+border-radius: 5px;
+
+}
+
+nav ul li a:hover{
+    background-color: #30B868;
+    color: #EDF07B;
+    
+}
