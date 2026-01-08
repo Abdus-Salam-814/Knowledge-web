@@ -14,7 +14,15 @@ body{
 }
 
 /* Sheard Style started Here */
+/* Margin */
 
+.mx-auto{
+    margin: 0 auto;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
 
 /* paddin Style  */
 
@@ -37,31 +45,51 @@ body{
 }
 
 .border-rounded{
-    border-radius: 100%;
+    border-radius: 30px;
 
 }
 
+.border-1-white{
+    border: 1px solid rgba(255, 255, 255, 1);
+}
 
-
+.border-none{
+    border: none;
+}
 /* Background Color */
 .bg-praymary{
     background-color: #30B868 ;
 }
 
+.bg-scondary{
+    background-color: rgba(255, 255, 255, 1);
+}
 
+.bg-none{
+    background-color: transparent;
+}
 
 /* Text Style */
-.text-whight{
+.text-white{
     color: rgba(255, 255, 255, 1);
 }
 
+.text-praimary{
+    color: #30B868 ;
+}
+
+
+.text-center{
+    text-align: center;
+}
 
 /* Button Style */
 .btn{
     font-size: 16px;
     font-weight: 600;
     padding: 12px 16px;
-    border: none;
+     cursor: pointer;
+    line-height: 19px;
 }
 
 .btn:hover{
@@ -85,6 +113,10 @@ body{
     display: flex;
 
 }
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
 .grid{
     display: grid;
 }
@@ -103,8 +135,17 @@ body{
     justify-items: center;
 }
 
+.gap-1{
+    gap: 1rem;
+}
 .gap-2{
     gap: 2rem;
+}
+
+
+/* Width  */
+.w-11{
+    width: 18rem;
 }
 
 /* Sheard Style End Here */
@@ -136,4 +177,34 @@ nav ul li a:hover{
     background-color: #30B868;
     color: #EDF07B;
     
+}
+
+#banner{
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.303),
+      rgba(0, 0, 0, 0.349)
+    ),
+    url(../assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner .content{
+    padding: 150px 220px;
+    
+}
+
+#heading-text-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+
+}
+
+#heading-text-content p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 24px;
+
 }
