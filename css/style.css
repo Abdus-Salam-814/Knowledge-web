@@ -252,7 +252,7 @@ nav{
     background-color: rgba(255, 255, 255, 1);
 }
 nav .logo-img{
-    width: 47px ;
+    width: 80%;
 }
 nav ul li{
     list-style: none;
@@ -313,7 +313,7 @@ nav ul li a:hover{
 
 footer{
     background-color: rgba(54, 146, 188, 1);
-    background-image: linear-gradient(rgba(1, 82, 174, 0.247));
+    background-image: linear-gradient(rgba(4, 5, 5, 0.616));
 
     padding: 120px 120px 30px;
 
@@ -333,4 +333,9 @@ footer ul {
 footer ul li a{
     text-decoration: none;
     color:  rgba(255, 255, 255, 1);
+}
+
+footer hr{
+    color: #173925;
+    margin: 20px 0;
 }
