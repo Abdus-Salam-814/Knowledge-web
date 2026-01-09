@@ -19,11 +19,16 @@ body{
 .mx-auto{
     margin: 0 auto;
 }
+.mt-1{
+    margin-top: 1rem;
+}
 
 .mt-2{
     margin-top: 2rem;
 }
-
+.mb-7{
+    margin-top: 7rem;
+}
 /* paddin Style  */
 
 .pl-7-5{
@@ -32,7 +37,10 @@ body{
 .pr-7-5{
    padding-right: 7.5rem;
 }
-
+.px-7-5{
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+}
 .pt-1{
     padding-top: 1rem;
 }
@@ -83,6 +91,44 @@ body{
     text-align: center;
 }
 
+.text-48{
+    font-size: 48px;
+}
+
+.paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+   
+}
+
+.card{
+    width: 322px;
+    height: 200px;
+    padding: 24px;
+     border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    padding: 64px 24px 42px ;
+}
+
+.card img{
+    width: 32px;
+    height: 32px;
+    background: rgba(249, 85, 85, 1);
+    border: none;
+    padding: 6px;
+    border-radius: 100%;
+
+}
+
+/* heading Style */
+.h-2{
+font-weight: 700;
+line-height: 58px;
+color: #001931 ;
+
+}
 /* Button Style */
 .btn{
     font-size: 16px;
@@ -206,5 +252,9 @@ nav ul li a:hover{
     font-size: 18px;
     margin-top: 20px;
     line-height: 24px;
+
+}
+
+#dont-fail{
 
 }
