@@ -43,11 +43,14 @@ body{
 .pl-7-5{
    padding-left: 7.5rem;
 }
-.pr-4{
-    padding-right: 18rem;
+.pr-2{
+    padding-right: 2rem;
 }
 .pr-7-5{
    padding-right: 7.5rem;
+}
+.px-3{
+    padding: 0 3rem;
 }
 .px-7-5{
     padding-left: 7.5rem;
